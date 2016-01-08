@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html lang="it-IT">
+<head>
+	<title>Web & Cross Platform</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=792, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="shower/themes/mozilla/styles/style.css"/>
+
+	<!-- my style -->
+	<link rel="stylesheet" href="my_style.css"/>
+</head>
+<body class="list">
+	<header class="caption">
+		<h1>Web & Cross Platform</h1>
+		<p>Einstein @ Vimercate 16-1-2016</p>
+	</header>
+	<section class="slide mycover" id="Cover"><div>
+		<img src="pictures/cross_platform_2.png" alt="" style="min-width: 60%;" class="mycenter">
+		<p class="note center" style="margin-top: -1em;">Slides by <a href="http://firefoxmilano.it">Firefox Club Milano</a></p>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2 class="center">Cross-Device</h2>
+		<img src="pictures/bbc_test.jpg" alt="Responsive BBC" class="mycenter">
+		<p class="note center">Kit per i test usato dalla BBC</p>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2 class="center">Responsive design</h2>
+		<br>
+		<blockquote>
+			Con Responsive Design indichiamo quell’approccio per il quale la progettazione e lo sviluppo di un sito dovrebbero adattarsi al comportamento e all’ambiente dell’utente in base a fattori come le dimensioni dello schermo, la piattaforma e l’orientamento del device. La pratica consiste in un mix di griglie, layout e immagini flessibili, più un uso accorto delle media queries CSS.
+		</blockquote>
+		<p class="note">-- Kayla Knight per Smashing Magazine</p>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2 class="center">Responsive design</h2>
+		<br>
+		<ul class="center">
+			<li class="next">Media queries</li>
+			<li class="next">Breakpoints</li>
+			<li class="next">Flex, box e griglie</li>
+			<li class="next"><code><s>px</s></code> => <code>rem</code>, <code>em</code> e <code>%</code></li>
+			<li class="next">Meta tag <code>viewport</code></li>
+		</ul>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2 class="center">Media queries</h2>
+		<p>Caratterizzate dall'attributo <code>@media</code>, definiscono il comportamento degli elementi della pagina web in base alla dimensione dello schermo (o della finestra)</p>
+		<p class="next">Permettono di:</p>
+		<ul style="margin-top: -2em;">
+			<li class="next">Modificare posizione e dimensione degli elementi nella pagina</li>
+			<li class="next">Visualizzare o nascondere determinati elementi</li>
+		</ul>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2 class="center">Breakpoints</h2>
+		<p>I <code>breakpoint</code>, definiti tramite CSS <br>attraverso le media query, <br>permettono di definire diversi layout <br>di una stessa pagina a seconda della <br>sua larghezza</p>
+		<img src="pictures/breakpoint-example.png" alt="Breakpoint" class="right" style="margin-top: -10em; margin-right: 5em;">
+		<p class="next">Il risultato? Lo trovate <a href="breakpoints.html" target="_blank">qui</a>!</p>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2 class="center">Flex, box e griglie</h2>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2 class="center">Viewport</h2>
+		<p>Il browser adatta automaticamente le dimensioni della sua area di visualizzazione - la <code>viewport</code> - per accomodare al meglio il layout della pagina. Il meta tag viewport sovrascrive le impostazioni di default del browser e ci permette di forzare la visualizzazione del contenuto a nostro piacimento.</p>
+		<img src="pictures/viewport.png" class="mycenter next" style="margin-top: -2em; width: 100% ">
+		<ul>
+			<li class="next">Impostare la larghezza della viewport per farla corrispondere alla larghezza dello schermo</li>
+			<li class="next">Abilitare/Disabilitare lo zoom da parte dell'utente</li>
+			<li class="next">Impostare uno zoom di default</li>
+		</ul>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2 class="center">Cross-Platform</h2>
+		<img src="pictures/cross_platform.png" alt="Cross-Platform" class="mycenter" style="width: 100%;">
+	</div></section>
+
+	<section class="slide"><div>
+		<h2 class="center">Multipiattaforma</h2>
+		<br>
+		<ul>
+			<li class="next">1 codice sorgente -> N piattaforme (Android, iOS, Windows, Linux, ...)</li>
+			<li class="next">Scalabilità</li>
+			<li class="next">Semplicità di sviluppo e mantenimento dell'applicazione/software</li>
+			<li class="next">Pool di utenti più ampio</li>
+		</ul>
+		<p class="next center">Ma... <strong>Come?</strong></p>
+	</div></section>
+
+	<section class="slide shout"><div>
+		<h2>Web App</h2>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2 class="center">Web App</h2>
+		<p>Ogni sistema dispone di un <code>browser</code>... e allora perchè non sfruttarlo?</p>
+		<p>Le Web App sono applicazioni scritte con il linguaggio del web - HTML, CSS e JavaScript - che è comprensibile da ogni piattaforma.</p>
+		<p>Utilizzando alcuni accorgimenti è possibile scrivere un'applicazione utlizzabile da uno smartphone Android, un'iPad, una TV con Firefox OS e un PC desktop, con un solo codice sorgente</p>
+	</div></section>
+
+	<section class="slide shout gradient-nightly"><div>
+		<h2>Byebye Flash, Swift, C#, Java, welcome HTML5!</h2>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2 class="center">Firefox OS App</h2>
+		<p>Si tratta di pure Web App con allegato un file <code>manifest</code>. È una tra le alternative più semplici, basta infatti:</p>
+		<ul>
+			<li class="next">Scrivere l'applicazione web</li>
+			<li class="next">Pubblicarla sul Marketplace</li>
+			<li class="next">Installarla sul dispositivo attraverso il Firefox Marketplace</li>
+		</ul>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2 class="center">Altri strumenti</h2>
+		<p>Ci sono poi dei <code>framework</code> che permettono di scrivere codice per una Web App, per poi compilarlo in modo da produrre app destinate a diverse piattaforme</p>
+		<img src="pictures/sencha_phonegap_appcelerator.png" alt="Sencha-Phonegap-Appcelerator" class="right next" style="margin-top: -5em; margin-right: 3em;">
+		<ul>
+			<li class="next"><a href="http://phonegap.com" target="_blank">PhoneGap</a></li>
+			<li class="next"><a href="https://www.sencha.com/products/touch" target="_blank">Sencha Touch</a></li>
+			<li class="next"><a href="https://www.sencha.com/products/touchwww.appcelerator.com" target="_blank">Appcelerator Titanium</a></li>
+		</ul>
+	</div></section>
+
+	<!--section class="slide"><div>
+		<h2 class="center">Domande?</h2>
+		<figure class="frame place swing mypanda">
+		<img src="pictures/redpanda.jpg" alt="Red panda (Firefox)">
+		</figure>
+		<p class="note bottomcenter">Presentazione a cura del Firefox Club Milano. <a href="https://github.com/FirefoxMilano/Mozilla-Presentation">Sorgente</a></p>
+	</div></section-->
+	<div class="progress"><div></div></div>
+	<script src="shower/scripts.js"></script>
+</body>
+</html>
