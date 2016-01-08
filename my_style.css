@@ -1,0 +1,76 @@
+.mycover {
+	background: transparent url("shower/themes/mozilla/images/bg-red-2.png") repeat scroll 0% 0% !important;
+	/*background: transparent url("none") repeat scroll 0% 0% !important;*/
+}
+
+blockquote{
+	font-style: italic;
+	padding: 10px;
+}
+
+.myright {
+	margin-top: 4rem;
+	margin-right: 4rem;
+}
+
+.myright2 {
+	margin-top: -5rem;
+	margin-right: 4rem;
+}
+
+.mycenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.bottom {
+	margin-top: 10rem;
+}
+
+.myimg {
+	max-height: 80%;
+	display: block;
+	margin: 0 auto;
+}
+
+.minimg {
+	height: 60%;
+	margin-top: -3rem;
+}
+
+.mypanda {
+	margin-top: 3rem;
+}
+
+.bottomcenter {
+	margin-top: 30rem !important;
+	text-align: center;
+}
+
+.bottomcentercover {
+	margin-top: 34.5rem !important;
+	text-align: center;
+}
+
+.textimage {
+	z-index: 9999 !important;
+	margin-top: -19em;
+}
+
+.contribute {
+	margin-left: -4rem !important;
+}
+
+.mylefttop {
+	margin-top: -5rem;
+}
+
+.myrightbottom {
+	margin-top: -2rem !important;
+	margin-right: 3rem;
+}
