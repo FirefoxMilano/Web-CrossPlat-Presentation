@@ -1,5 +1,5 @@
 .mycover {
-	background: transparent url("shower/themes/mozilla/images/bg-red-2.png") repeat scroll 0% 0% !important;
+	background: transparent url("shower/themes/mozilla/images/bg-blue-2.png") repeat scroll 0% 0% !important;
 	/*background: transparent url("none") repeat scroll 0% 0% !important;*/
 }
 
@@ -73,4 +73,12 @@ blockquote{
 .myrightbottom {
 	margin-top: -2rem !important;
 	margin-right: 3rem;
+}
+
+.coverp {
+	color: #FFF !important;
+}
+
+.covera {
+	color: blue;
 }
