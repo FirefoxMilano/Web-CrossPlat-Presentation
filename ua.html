@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Agent</title>
+</head>
+<body>
+	<div id="ua"></div>
+	<div id="mob"></div>
+	<script>
+		var ua = window.navigator.userAgent;
+		document.getElementById("ua").innerHTML = "<p>" + ua + "</p>";
+
+		var mobile = "";
+		if(ua.match(/Android/i)
+		 || ua.match(/webOS/i)
+		 || ua.match(/iPhone/i)
+		 || ua.match(/iPad/i)
+		 || ua.match(/iPod/i)
+		 || ua.match(/BlackBerry/i)
+		 || ua.match(/Windows Phone/i)
+		 || ua.match(/Mobile/i)
+		)
+			mobile = "Hi there, I'm on mobile!";
+		else
+		    mobile = "Hey, this is a PC!";
+		document.getElementById("mob").innerHTML = "<p>" + mobile + "</p>";
+	</script>
+</body>
+</html>
