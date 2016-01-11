@@ -8,11 +8,10 @@
 	<div id="mob"></div>
 	<script>
 		var ua = window.navigator.userAgent;
+		var mobile = "";
 		document.getElementById("ua").innerHTML = "<p>" + ua + "</p>";
 
-		var mobile = "";
 		if(ua.match(/Android/i)
-		 || ua.match(/webOS/i)
 		 || ua.match(/iPhone/i)
 		 || ua.match(/iPad/i)
 		 || ua.match(/iPod/i)

@@ -41,7 +41,7 @@
 		<ul class="center">
 			<li class="next">Media queries</li>
 			<li class="next">Breakpoints</li>
-			<li class="next">Flex, box e griglie</li>
+			<li class="next">Flexbox</li>
 			<li class="next"><code><s>px</s></code> => <code>rem</code>, <code>em</code> e <code>%</code></li>
 			<li class="next">Meta tag <code>viewport</code></li>
 		</ul>
@@ -65,7 +65,17 @@
 	</div></section>
 
 	<section class="slide"><div>
-		<h2 class="center">Flex, box e griglie</h2>
+		<h2 class="center">Flexbox</h2>
+		<p>Flexbox - o Flexible Box - è un nuovo layout introdotto con CSS3 e viene utilizzato per disporre in modo ottimale i contenuti di una pagina web a seconda della dimensione dello schermo o della finestra.</p>
+		<p class="left">
+			<code>.flex-box {</code><br>
+			<code><span class="hide">.</span>   display: flex;</code><br>
+			<code>}</code>
+		</p>
+		<p class="right next" style="margin-right: 3em; text-align:right">
+			Attraverso le media query <br>possiamo disporre e ordinare <br>i nostri <code>flexbox</code> a seconda<br> della dimensione dello schermo
+		</p>
+		<p class="note center next" style="margin-top: 11em;"><a href="flex.html" target="_blank">Esempio</a></p>
 	</div></section>
 
 	<section class="slide"><div>
@@ -81,6 +91,7 @@
 
 	<section class="slide"><div>
 		<h2 class="center">Cross-Platform</h2>
+		<br>
 		<img src="pictures/cross_platform.png" alt="Cross-Platform" class="mycenter" style="width: 100%;">
 	</div></section>
 
@@ -103,8 +114,8 @@
 	<section class="slide"><div>
 		<h2 class="center">Web App</h2>
 		<p>Ogni sistema dispone di un <code>browser</code>... e allora perchè non sfruttarlo?</p>
-		<p>Le Web App sono applicazioni scritte con il linguaggio del web - HTML, CSS e JavaScript - che è comprensibile da ogni piattaforma.</p>
-		<p>Utilizzando alcuni accorgimenti è possibile scrivere un'applicazione utlizzabile da uno smartphone Android, un'iPad, una TV con Firefox OS e un PC desktop, con un solo codice sorgente</p>
+		<p class="next">Le Web App sono applicazioni scritte con il linguaggio del web - HTML, CSS e JavaScript - che è comprensibile da ogni piattaforma.</p>
+		<p class="next">Utilizzando alcuni accorgimenti è possibile scrivere un'applicazione utlizzabile da uno smartphone Android, un'iPad, una TV con Firefox OS e un PC desktop, con un solo codice sorgente</p>
 	</div></section>
 
 	<section class="slide shout gradient-nightly"><div>
@@ -127,6 +138,14 @@
 		<code class="next">Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0</code>
 		<br><br>
 		<p class="center next"><a href="ua.html" target="_blank">Esempio</a></p>
+		<p class="note center next"><a href="http://www.whatsmyua.com/">www.whatsmyua.com</a></p>
+	</div></section>
+
+	<section class="slide"><div>
+		<h2 class="center">Esempio</h2>
+		<img src="pictures/openpgp-ffos.png" alt="OpenPGP Firefox OS" class="left" style="margin-left: 1em;">
+		<img src="pictures/openpgp-pc.png" alt="OpenPGP PC" class="right" style="margin-right: 4em;">
+		<p class="note bottomcenter">OpenPGP runnung on Firefox OS (left) and on a PC (rigth)</p>
 	</div></section>
 
 	<section class="slide"><div>
@@ -140,13 +159,14 @@
 		</ul>
 	</div></section>
 
-	<!--section class="slide"><div>
+
+	<section class="slide"><div>
 		<h2 class="center">Domande?</h2>
 		<figure class="frame place swing mypanda">
 		<img src="pictures/redpanda.jpg" alt="Red panda (Firefox)">
 		</figure>
-		<p class="note bottomcenter">Presentazione a cura del Firefox Club Milano. <a href="https://github.com/FirefoxMilano/Mozilla-Presentation">Sorgente</a></p>
-	</div></section-->
+		<p class="note bottomcenter">Presentazione a cura del Firefox Club Milano. <a href="https://github.com/FirefoxMilano/Web-CrossPlat-Presentation">Sorgente</a></p>
+	</div></section>
 	<div class="progress"><div></div></div>
 	<script src="shower/scripts.js"></script>
 </body>

@@ -78,3 +78,7 @@ blockquote{
 .coverp {
 	color: #FFF !important;
 }
+
+.hide {
+	 opacity: 0;
+}
